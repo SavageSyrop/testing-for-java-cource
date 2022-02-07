@@ -102,7 +102,7 @@ public class task4 {
 
         for (int i=0;i<7;i++)
         {
-            digitAlphabet[i][max]=digitAlphabet[i][max].replace('#','*');
+            digitAlphabet[i][max]=digitAlphabet[i][max].replace('#',(char)(max + '0'));
         }
 
         for (int i=0;i<7;i++)
